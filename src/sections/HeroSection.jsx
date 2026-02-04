@@ -15,7 +15,7 @@ import LocationCard from "../components/LocationCard";
 function HeroSection() {
   const [reveal, setReveal] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
-  const email = "mnazar87540@gmail.com";
+  const email = "gmarun1021@gmail.com";
 
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function HeroSection() {
   }, []);
 
   const handleEmailClick = () => {
-    const email = "mnazar87540@gmail.com";
+    const email = "gmarun1021@gmail.com";
     navigator.clipboard.writeText(email);
     setShowPopup(true);
     setTimeout(() => {
@@ -66,7 +66,7 @@ function HeroSection() {
               className="text-gray-400 hover-target text-[10px] leading-4  md:text-base md:leading-7 text-left"
             >
               
-              I'm  Mohamed Ajardeen
+              I'm  Arunkumar 
               <span className="font-bold  p-0.5 mx-1">
                 Certified Full-Stack Developer
               </span>{" "}
@@ -159,7 +159,7 @@ function HeroSection() {
             />
             <div className="absolute -bottom-3 sm:bottom-5 lg:bottom-5 w-full z-10">
               {" "}
-              <OverlayText text={"Mohamed Ajardeen"} />
+              <OverlayText text={"Arunkumar "} />
             </div>
           </span>
         </motion.div>
