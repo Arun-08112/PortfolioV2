@@ -9,7 +9,7 @@ import Animation from "../assets/Animation.webm";
 
 function NavBar() {
   const messages = [
-    "Hi ✋🏼 I'm  Ajardeen",
+    "Hi ✋🏼 I'm  Arun",
     "Welcome to my portfolio",
     "Take a look at my skills",
     "Explore my projects",
